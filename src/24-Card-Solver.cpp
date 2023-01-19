@@ -213,7 +213,7 @@ int main()
     if (choice == "Y" || choice == "y")
     {
         string fileName;
-        cout << "\nMasukan nama file keluaran: ";
+        cout << "\nMasukan nama file keluaran (tanpa .txt): ";
         getline(cin, fileName);
         fileName = "../test/" + fileName + ".txt";
         freopen(fileName.c_str(), "w", stdout);
